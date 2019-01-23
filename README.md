@@ -1,5 +1,19 @@
 # Discord Community bot
 
+## :warning: Miunie recently moved!
+
+This repository is moving into an archived state. That means it becomes read-only and will no longer be maintained.
+
+**:question: Where did Miunie move to?**
+
+Community-Discord-BOT (now just called Miunie) moved to a [new repository](https://github.com/discord-bot-tutorial/Miunie). with a focus on improving the architecture.
+
+**:question: Can I still maintain it myself?**
+
+Yes, if you fork this repository, you are free to develop it in any way you want.
+
+---------
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/petrspelos/Community-Discord-BOT/blob/master/LICENSE)
 [![Build status](https://ci.appveyor.com/api/projects/status/ykcjkkhik31ssb2g/branch/master?svg=true)](https://ci.appveyor.com/project/discord-bot-tutorial/community-discord-bot/branch/master)
 [![Coverage Status](https://coveralls.io/repos/github/discord-bot-tutorial/Community-Discord-BOT/badge.svg?branch=master)](https://coveralls.io/github/discord-bot-tutorial/Community-Discord-BOT?branch=master)
