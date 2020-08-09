@@ -1,9 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <DebugType>full</DebugType>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <ApplicationIcon>iconfinder_Foobar_19662.ico</ApplicationIcon>
+    <StartupObject />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <WarningLevel>0</WarningLevel>
@@ -19,8 +21,8 @@
     <None Remove="ServerActivityLogger\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Discord.Net" Version="2.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Discord.Net" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="Ofl.Google.Maps" Version="3.0.22" />
   </ItemGroup>
 </Project>
